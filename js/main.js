@@ -3,11 +3,9 @@ const modal = document.querySelector('.modal');
 const close = document.querySelector('.close');
 const cancel = document.querySelector('#cancel');
 
-if (modal) {
-    cardButton.addEventListener('click', toggleModal);
-    close.addEventListener('click', toggleModal);
-    cancel.addEventListener('click', toggleModal);    
-}
+cardButton.addEventListener('click', toggleModal);
+close.addEventListener('click', toggleModal);
+cancel.addEventListener('click', toggleModal);
 
 function toggleModal() {
     modal.classList.toggle('is-open');
